@@ -235,6 +235,17 @@ ul {
 	list-style-type: square;
 }
 
+ul.reviewer-list {
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+ul.reviewer-list li {
+	margin-top: 0;
+	line-height: 1.5;
+}
+
 p + ul, p + ol {
 	margin-top: -0.5em;
 }
